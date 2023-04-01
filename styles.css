@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif;
+    margin-right: auto;
+}
+#navbar{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background: black;
+    padding: 0 !important;
+    font-size:large;
+}
+.nav-link {
+    font-size: 15px;
+    color: rgb(216, 216, 216);
+    padding: 10px;
+    font-family: sans-serif;
+    margin-right: 50px;
+}
+
+.nav-link a:hover {
+    color: rgb(218, 218, 218);
+}
+
+.nav-link a:active {
+    color: rgb(131, 211, 211);
+}
+
+.color {
+    font-style: italic;
+    color: rgb(187, 146, 10);
+}
+.navbar-brand {
+    color: rgb(155, 155, 155);
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.dropdown {
+    position:relative;
+    display: flexbox;
+    margin-left: 100px;;
+    margin-top: 500px;
+   
+  }
+  
+  .dropbtn {
+    background-color: #a58416;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 90%;
+    text-align: left;
+
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+.card-body {
+    margin-top: 10%;
+    width:100%;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.card {
+    margin-top: 10%;
+    width:100%;
+}
+
+.card-text {
+    width: 100%;
+    color: rgb(165, 23, 23);
+}
+fgkjbag
