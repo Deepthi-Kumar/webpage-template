@@ -59,8 +59,81 @@ body {
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1; 
     width: 100%; 
-    padding: 10px; 
+    padding: 20px; 
   }
+/*step 1
+.dropdown {
+  position:static;
+  display:flexbox;
+  margin-left: 60px;
+  cursor: pointer;
+
+ 
+}
+  .caret {
+    display:inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 8px solid;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    margin-left: 88%;
+  }
+  
+  .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .dropbtn {
+    background-color: #a58416;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 90%;
+    text-align: left;
+
+  }
+
+  .dropdown:hover {
+    display: block;
+  }
+  
+  .card {
+    margin-left: 10%;
+    margin-top: 3%;
+    width:20%;
+    margin-bottom: 10px ;
+}
+.card-body {
+    margin-top: 10%;
+    width:100%;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.card-title {
+  text-align: left;
+  margin-left: 10%;
+}
+.card-text {
+    width: 100%;
+    color: rgb(92, 92, 92);
+    text-align: justify;
+    font-size: medium;
+
+}
+
+.btn {
+    margin-left:  35%;
+}
+
+/*step1*/
+
 /*hero*/
 
 #hero {
@@ -118,10 +191,5 @@ body {
   
       
  /*hero*/
-
-.accordion {
-  padding: auto;
-  margin-left:10%;
-  margin-right: 10%;
-  margin-bottom: 3%;
-}
+ 
+/*button*/
