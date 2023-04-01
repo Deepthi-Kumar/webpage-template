@@ -94,12 +94,20 @@ body {
     font-size: 10px;
 }
 .card {
-    margin-top: 10%;
-    width:100%;
+    margin-left: 10%;
+    margin-top: 3%;
+    width:20%;
+    margin-bottom: 20px ;
 }
 
 .card-text {
     width: 100%;
-    color: rgb(165, 23, 23);
+    color: rgb(92, 92, 92);
+    text-align: justify;
+    font-size: medium;
+
 }
-fgkjbag
+
+.btn {
+    margin-left:  35%;
+}
