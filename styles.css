@@ -32,7 +32,7 @@ body {
 
 .color {
     font-style: italic;
-    color: rgb(187, 146, 10);
+    color: #bb920a;
 }
 .navbar-brand {
     color: rgb(155, 155, 155);
@@ -94,7 +94,7 @@ body {
   }
   
   #hero h1 span {
-    color: #bba111;
+    color: #bb920a;
   }
   
   #hero h2 {
@@ -124,4 +124,34 @@ body {
   margin-left:10%;
   margin-right: 10%;
   margin-bottom: 3%;
+}
+.accordion-button {
+  background-color: #bb920a;
+}
+
+/*card*/
+.card {
+  margin-left: 5%;
+  margin-top: 1%;
+  width:25%;
+  margin-bottom: 10px ;
+}
+.card-body {
+  margin-top: 10%;
+  width:100%;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.card-title {
+text-align: left;
+margin-left: 10%;
+}
+.card-text {
+  width: 100%;
+  color: rgb(92, 92, 92);
+  text-align: justify;
+  font-size: 15px;
+
 }
